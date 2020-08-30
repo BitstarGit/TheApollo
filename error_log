@@ -1,6 +1,0 @@
-[30-Aug-2020 05:18:34 UTC] PHP Warning:  require_once(./assets/init.php): failed to open stream: No such file or directory in /home/msfnhx4e1h50/public_html/ajax.php on line 2
-[30-Aug-2020 05:18:34 UTC] PHP Fatal error:  require_once(): Failed opening required './assets/init.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/msfnhx4e1h50/public_html/ajax.php on line 2
-[30-Aug-2020 05:18:41 UTC] PHP Warning:  require_once(./assets/init.php): failed to open stream: No such file or directory in /home/msfnhx4e1h50/public_html/ajax.php on line 2
-[30-Aug-2020 05:18:41 UTC] PHP Fatal error:  require_once(): Failed opening required './assets/init.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/msfnhx4e1h50/public_html/ajax.php on line 2
-[30-Aug-2020 05:18:46 UTC] PHP Warning:  require_once(./assets/init.php): failed to open stream: No such file or directory in /home/msfnhx4e1h50/public_html/ajax.php on line 2
-[30-Aug-2020 05:18:46 UTC] PHP Fatal error:  require_once(): Failed opening required './assets/init.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/msfnhx4e1h50/public_html/ajax.php on line 2
