@@ -12,6 +12,7 @@ $email_code = Secure($_GET['id']);
 $username = Secure($_GET['u_id']);
 
 $check_for_code = $db->where('username', $username)->where('email_code', $email_code)->getOne(T_USERS);
+
 if (empty($check_for_code)) {
     $data['message'] = $error_icon . __('please_check_details');
 }

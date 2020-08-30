@@ -82,6 +82,7 @@
             let username = $(this).attr('data-username');
             let text_link = $(this);
                 text_link.replaceWith("<b>{{LANG please_wait}}</b>");
+
             $.ajax({
                 type: 'GET',
                 url: '{{LINK aj/resend}}',

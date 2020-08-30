@@ -14,7 +14,7 @@
     <?php if($ask->mode == 'all'){ ?>
         <div class=" pointer" id="load-more-posts" onclick="GetMoreQuestions();">
             <span class="btn btn-default btn_load_more">
-                <i class="fa fa-chevron-circle-down progress-icon" data-icon="chevron-circle-down"></i> {{LANG Load more questions}}
+                <i class="fa fa-chevron-circle-down progress-icon" data-icon="chevron-circle-down"></i> {{LANG Load more posts}}
             </span>
         </div>
     <?php } ?>
@@ -29,13 +29,13 @@
             <div class="no_post">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#444" d="M4,2A2,2 0 0,0 2,4V16A2,2 0 0,0 4,18H8V21A1,1 0 0,0 9,22H9.5V22C9.75,22 10,21.9 10.2,21.71L13.9,18H20A2,2 0 0,0 22,16V4C22,2.89 21.1,2 20,2H4M4,4H20V16H13.08L10,19.08V16H4V4M12.19,5.5C11.3,5.5 10.59,5.68 10.05,6.04C9.5,6.4 9.22,7 9.27,7.69C0.21,7.69 6.57,7.69 11.24,7.69C11.24,7.41 11.34,7.2 11.5,7.06C11.7,6.92 11.92,6.85 12.19,6.85C12.5,6.85 12.77,6.93 12.95,7.11C13.13,7.28 13.22,7.5 13.22,7.8C13.22,8.08 13.14,8.33 13,8.54C12.83,8.76 12.62,8.94 12.36,9.08C11.84,9.4 11.5,9.68 11.29,9.92C11.1,10.16 11,10.5 11,11H13C13,10.72 13.05,10.5 13.14,10.32C13.23,10.15 13.4,10 13.66,9.85C14.12,9.64 14.5,9.36 14.79,9C15.08,8.63 15.23,8.24 15.23,7.8C15.23,7.1 14.96,6.54 14.42,6.12C13.88,5.71 13.13,5.5 12.19,5.5M11,12V14H13V12H11Z" /></svg>
                 <?php if(IS_LOGGED == true && $ask->page == 'timeline' ) {?>
-                {{LANG You haven’t posted any questions yet}}
+                {{LANG You haven’t posted any posts yet}}
                 <?php }else if(IS_LOGGED == true && $ask->page == 'nearby-questions' ) {?>
-                {{LANG There is no near by questions yet}}
+                {{LANG There is no near by posts yet}}
                 <?php }else if(IS_LOGGED == true && $ask->page == 'trending' ) {?>
-                {{LANG There is no trending questions yet}}
+                {{LANG There is no trending posts yet}}
                 <?php }else{?>
-                {{USER name}} {{LANG haven’t posted any questions yet}}
+                {{USER name}} {{LANG haven’t posted any posts yet}}
                 <?php }?>
             </div>
         </div>
@@ -52,7 +52,7 @@
                     <h4 class="modal-title">{{LANG Promote question}}</h4>
                 </div>
                 <div class="modal-body">
-                    <p>{{LANG Your question will be promoted for 24 hours for }} <b><?php echo GetCurrency($ask->config->ads_currency); ?>{{CONFIG promote_question_cost}}</b></p>
+                    <p>{{LANG Your post will be promoted for 24 hours for }} <b><?php echo GetCurrency($ask->config->ads_currency); ?>{{CONFIG promote_question_cost}}</b></p>
                     <p>{{LANG Your balance is }} <b><?php echo GetCurrency($ask->config->ads_currency); ?><?php echo sprintf('%.2f',$ask->user->wallet);?></b></p>
                     <div class="question-promote-alert"></div>
                 </div>
@@ -95,7 +95,7 @@
         <div class="modal-dialog">
             <div class="modal-content modal-col-red">
                 <div class="modal-header">
-                    <h4 class="modal-title">{{LANG Edit question}}</h4>
+                    <h4 class="modal-title">{{LANG Edit post}}</h4>
                 </div>
                 <div class="modal-body ask_photo_poll">
                     <div class="question-edit-alert"></div>
