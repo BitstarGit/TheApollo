@@ -3,11 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="4bdc8451-99e8-4f05-83ea-30b7435b04cd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/default/layout/auth/register/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/default/layout/auth/register/content.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/default/layout/nearby-questions/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/default/layout/nearby-questions/content.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/default/layout/timeline/partials/post_area.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/default/layout/timeline/partials/post_area.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/default/layout/timeline/partials/publisher_box.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/default/layout/timeline/partials/publisher_box.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/default/layout/trending/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/default/layout/trending/content.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admincp.php" beforeDir="false" afterPath="$PROJECT_DIR$/admincp.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajax.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cron.php" beforeDir="false" afterPath="$PROJECT_DIR$/cron.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_loading.php" beforeDir="false" afterPath="$PROJECT_DIR$/page_loading.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/robots.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,11 +20,12 @@
     <session id="603956703">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -33,7 +35,7 @@
           <entry key="html" value="30" />
           <entry key="js" value="1" />
           <entry key="php" value="25" />
-          <entry key="sql" value="2" />
+          <entry key="sql" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -42,22 +44,30 @@
           <entry key="JavaScript" value="1" />
           <entry key="PHP" value="25" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="SQL" value="2" />
+          <entry key="SQL" value="3" />
           <entry key="SmartyConfig" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="232" />
-          <entry key="php" value="136" />
+          <entry key="php" value="146" />
           <entry key="sql" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="232" />
-          <entry key="PHP" value="136" />
+          <entry key="PHP" value="146" />
           <entry key="SQL" value="5" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1689568783">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -103,14 +113,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/default/layout/timeline/partials/post_area.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5732">
-              <caret line="726" column="10" lean-forward="true" selection-start-line="726" selection-end-line="727" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="20328">
+              <caret line="726" column="10" selection-start-line="726" selection-end-line="727" />
             </state>
           </provider>
         </entry>
@@ -123,17 +127,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/default/layout/auth/login/content.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="129" column="42" lean-forward="true" selection-start-line="129" selection-start-column="42" selection-end-line="129" selection-end-column="42" />
+            <state relative-caret-position="3640">
+              <caret line="130" column="42" selection-start-line="130" selection-start-column="42" selection-end-line="130" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/default/layout/auth/register/content.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="672">
+              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/themes/default/layout/auth/register/content.html">
+        <entry file="file://$PROJECT_DIR$/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="613">
-              <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+            <state relative-caret-position="196">
+              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ask.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19040">
+              <caret line="680" column="28" selection-start-line="680" selection-start-column="28" selection-end-line="680" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -196,6 +218,7 @@
         <option value="$PROJECT_DIR$/themes/default/layout/trending/content.html" />
         <option value="$PROJECT_DIR$/themes/default/layout/nearby-questions/content.html" />
         <option value="$PROJECT_DIR$/themes/default/layout/auth/register/content.html" />
+        <option value="$PROJECT_DIR$/config.php" />
       </list>
     </option>
   </component>
@@ -212,7 +235,7 @@
       <path value="$PROJECT_DIR$/admin-panel/plugins/morrisjs/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -224,121 +247,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="theapollo.app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="theapollo.app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="theapollo.app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="theapollo.app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="theapollo.app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="theapollo.app" type="462c0819:PsiDirectoryNode" />
-              <item name="endpoint" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="theapollo.app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="theapollo.app" type="462c0819:PsiDirectoryNode" />
-              <item name="endpoint" type="462c0819:PsiDirectoryNode" />
-              <item name="v1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="theapollo.app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="theapollo.app" type="462c0819:PsiDirectoryNode" />
-              <item name="sources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="theapollo.app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="theapollo.app" type="462c0819:PsiDirectoryNode" />
-              <item name="sources" type="462c0819:PsiDirectoryNode" />
-              <item name="confirm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="theapollo.app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="theapollo.app" type="462c0819:PsiDirectoryNode" />
-              <item name="sources" type="462c0819:PsiDirectoryNode" />
-              <item name="contact" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="theapollo.app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="theapollo.app" type="462c0819:PsiDirectoryNode" />
-              <item name="sources" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="theapollo.app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="theapollo.app" type="462c0819:PsiDirectoryNode" />
-              <item name="sources" type="462c0819:PsiDirectoryNode" />
-              <item name="steps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="theapollo.app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="theapollo.app" type="462c0819:PsiDirectoryNode" />
-              <item name="sources" type="462c0819:PsiDirectoryNode" />
-              <item name="timeline" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="theapollo.app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="theapollo.app" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="theapollo.app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="theapollo.app" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="theapollo.app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="theapollo.app" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="theapollo.app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="theapollo.app" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="theapollo.app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="theapollo.app" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="theapollo.app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="theapollo.app" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-              <item name="register" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="theapollo.app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="theapollo.app" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-              <item name="trending" type="462c0819:PsiDirectoryNode" />
+              <item name="crumbb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crumbb" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -372,21 +292,25 @@
       <workItem from="1598728270438" duration="15486000" />
       <workItem from="1598767054586" duration="3900000" />
       <workItem from="1598774261437" duration="2486000" />
+      <workItem from="1598780066428" duration="1513000" />
+      <workItem from="1598783218579" duration="375000" />
+      <workItem from="1598787378066" duration="44000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21872000" />
+    <option name="totallyTimeSpent" value="23804000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.20575693" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.21215352" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
@@ -461,13 +385,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/import/PHPMailer/class.phpmailer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -486,9 +403,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="155" column="7" selection-start-line="155" selection-start-column="7" selection-end-line="155" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -543,13 +457,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
           <caret line="25" column="54" lean-forward="true" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ask.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="680" column="28" selection-start-line="680" selection-start-column="28" selection-end-line="680" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -715,14 +622,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/default/layout/timeline/partials/post_area.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5732">
-          <caret line="726" column="10" lean-forward="true" selection-start-line="726" selection-end-line="727" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="20328">
+          <caret line="726" column="10" selection-start-line="726" selection-end-line="727" />
         </state>
       </provider>
     </entry>
@@ -731,15 +632,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/default/layout/auth/login/content.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="129" column="42" lean-forward="true" selection-start-line="129" selection-start-column="42" selection-end-line="129" selection-end-column="42" />
+        <state relative-caret-position="3640">
+          <caret line="130" column="42" selection-start-line="130" selection-start-column="42" selection-end-line="130" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/default/layout/auth/register/content.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+        <state relative-caret-position="672">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ask.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19040">
+          <caret line="680" column="28" selection-start-line="680" selection-start-column="28" selection-end-line="680" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
         </state>
       </provider>
     </entry>
