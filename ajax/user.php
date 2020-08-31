@@ -4,7 +4,13 @@ $is_owner = false;
 if (empty($_REQUEST['user_id'])) {
     exit();
 }
-if ($_REQUEST['user_id'] == $user->id || IsAdmin()) {
+//author : KSUN
+//Bug fixing user profile update
+//if ($_REQUEST['user_id'] == $user->id || IsAdmin()) {
+//    $is_owner = true;
+//}
+
+if (Secure($_POST['user_id']) == $user->id || IsAdmin()) {
     $is_owner = true;
 }
 
