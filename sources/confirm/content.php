@@ -39,6 +39,7 @@ if ($update) {
     $_SESSION['user_id'] = $session_id;
     setcookie("user_id", $session_id, time() + (10 * 365 * 24 * 60 * 60), "/");
     $ask->loggedin = true;
+
     header("Location: " . UrlLink('/steps/avatar'));
     exit();
 }

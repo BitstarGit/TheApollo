@@ -84,6 +84,7 @@
             success: function(data) {
                 if (data.status == 200) {
                     if( data.mode == 'done' ){
+                        console.log('{{LINK session_login}}?sid='+data.session_id,"--------register");
                         window.location = '{{LINK session_login}}?sid='+data.session_id;
                         return false;
                     }else if( data.mode == 'wait_activate' ){
