@@ -3,14 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4bdc8451-99e8-4f05-83ea-30b7435b04cd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/confirm/content.php" beforeDir="false" afterPath="$PROJECT_DIR$/sources/confirm/content.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/register/content.php" beforeDir="false" afterPath="$PROJECT_DIR$/sources/register/content.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/default/layout/auth/login/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/default/layout/auth/login/content.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/default/layout/auth/register/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/default/layout/auth/register/content.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/default/layout/steps/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/default/layout/steps/content.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/default/layout/timeline/partials/userinfo_card.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/default/layout/timeline/partials/userinfo_card.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/default/layout/timeline/partials/cover_avatar.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/default/layout/timeline/partials/cover_avatar.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,42 +62,44 @@
     <session id="-1689568783">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="225" />
-          <entry key="php" value="502" />
+          <entry key="html" value="252" />
+          <entry key="php" value="503" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="225" />
-          <entry key="PHP" value="502" />
+          <entry key="HTML" value="252" />
+          <entry key="PHP" value="503" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="16" />
+          <entry key="htaccess" value="1" />
+          <entry key="html" value="22" />
           <entry key="md" value="1" />
-          <entry key="php" value="46" />
+          <entry key="php" value="80" />
           <entry key="png" value="1" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="16" />
+          <entry key="HTML" value="22" />
           <entry key="Image" value="1" />
           <entry key="Markdown" value="1" />
-          <entry key="PHP" value="46" />
+          <entry key="PHP" value="80" />
           <entry key="PLAIN_TEXT" value="1" />
+          <entry key="htaccess" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -111,40 +107,77 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ajax/register.php">
+        <entry file="file://$PROJECT_DIR$/themes/default/layout/timeline/partials/cover_avatar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3075">
-              <caret line="123" column="26" lean-forward="true" selection-start-line="123" selection-start-column="26" selection-end-line="123" selection-end-column="26" />
+            <state relative-caret-position="625">
+              <caret line="72" column="72" lean-forward="true" selection-start-line="72" selection-start-column="72" selection-end-line="72" selection-end-column="72" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sources/steps/content.php">
+        <entry file="file://$PROJECT_DIR$/sources/timeline/content.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="451">
+              <caret line="135" column="33" selection-start-line="135" selection-start-column="23" selection-end-line="135" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ajax/user.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="400">
-              <caret line="16" column="4" selection-start-line="16" selection-end-line="16" selection-end-column="4" />
+              <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sources/session_login/content.php">
+        <entry file="file://$PROJECT_DIR$/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="33" column="37" lean-forward="true" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+            <state relative-caret-position="425">
+              <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/default/layout/steps/content.html">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="163" column="35" lean-forward="true" selection-start-line="163" selection-start-column="35" selection-end-line="163" selection-end-column="35" />
-              <folding>
-                <element signature="n#div#1;n#div#0;n#div#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="-1950">
+              <caret line="12" column="27" selection-end-line="259" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/init.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/includes/tables.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="825">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/includes/functions_general.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="51" column="30" lean-forward="true" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -153,23 +186,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Load more questions</find>
-      <find>Add Profile Picture</find>
-      <find>question</find>
-      <find>login_page</find>
-      <find>site</find>
-      <find>login</find>
-      <find>profileBox_gradient</find>
-      <find>// author K.SUN</find>
-      <find>/steps/info</find>
-      <find>/steps/avatar</find>
-      <find>steps/avatar</find>
-      <find>ask_steps</find>
-      <find>slider-one-active</find>
-      <find>steps/con</find>
-      <find>fill_out_form</find>
-      <find>\&lt;\?php\nif \(IS_LOGGED \=\= true \|\| \!isset\(\$_GET\[\'sid\'\]\) \|\| empty\(\$_GET\[\'sid\'\]\)\) \{\n    header\(\&quot;Location\: \{\$site_url\}\&quot;\)\;\n    exit\(\)\;\n\}\n\$session_id \= Secure\(\$_GET\[\'sid\'\]\)\;\n\$db\-\&gt;where\(\'session_id\'\,\$session_id\)\;\n\$__session__  \= \$db\-\&gt;getValue\(T_SESSIONS\,\'count\(\`id\`\)\'\)\;\nif \(empty\(\$__session__\)\) \{\n    header\(\&quot;Location\: \&quot; \. UrlLink\(\'\'\)\)\;\n    exit\(\)\;\n\}\n\$_SESSION\[\'user_id\'\] \= \$session_id\;\nsetcookie\(\&quot;user_id\&quot;\, \$session_id\, time\(\) \+ \(10 \* 365 \* 24 \* 60 \* 60\)\, \&quot;\/\&quot;\)\;\n\$ask\-\&gt;loggedin \= true\;\n\n\$db\-\&gt;join\(T_SESSIONS \. \&quot; s\&quot;\, \&quot;s\.user_id\=u\.id\&quot;\, \&quot;LEFT\&quot;\)\;\n\$db\-\&gt;where\(\&quot;s\.session_id\&quot;\, \$session_id\)\;\n\$user \= \$db\-\&gt;get\(T_USERS \. \&quot; u\&quot;\, null\, \&quot;\*\&quot;\)\;\nif\(empty\(\$user\[0\]\)\)\{\n    header\(\&quot;Location\: \{\$site_url\}\&quot;\)\;\n    exit\(\)\;\n\}\n\nelse\{\n    \/\/ author KSUN\n    \/\/ without Avatar\n    header\(\&quot;Location\: \&quot; \. UrlLink\(\'\/\@\' \. \$user\[0\]\-\&gt;username\)\)\;\n\/\/    if\(\$user\[0\]\-\&gt;active \=\= 0\)\{\n\/\/        \/\/redirect to required activate page\n\/\/        header\(\&quot;Location\: \&quot; \. UrlLink\(\'\'\)\)\;\n\/\/    \}\n\/\/\n\/\/    else\{\n\/\/\n\/\/        if\(\$user\[0\]\-\&gt;startup \=\= 0\)\{\n\/\/            \/\/redirect to step avatar\n\/\/            header\(\&quot;Location\: \&quot; \. UrlLink\(\'\/steps\/avatar\'\)\)\;\n\/\/        \}\n\/\/\n\/\/        else if\(\$user\[0\]\-\&gt;startup \=\= 1\)\{\n\/\/            \/\/redirect to step info\n\/\/            header\(\&quot;Location\: \&quot; \. UrlLink\(\'\/steps\/info\'\)\)\;\n\/\/        \}\n\/\/\n\/\/        else\{\n\/\/            \/\/redirect to profile home\n\/\/            header\(\&quot;Location\: \&quot; \. UrlLink\(\'\/\@\' \. \$user\[0\]\-\&gt;username\)\)\;\n\/\/        \}\n\/\/        header\(\&quot;Location\: \&quot; \. UrlLink\(\'\/\@\' \. \$user\[0\]\-\&gt;username\)\)\;\n\/\/    \}\n\}\nexit\(\)\;</find>
-      <find>session_login</find>
       <find>$ask-&gt;step_type</find>
       <find>ask-&gt;step_type</find>
       <find>LoadPage</find>
@@ -183,9 +199,27 @@
       <find>UpdateUserData</find>
       <find>startup</find>
       <find>author KSUN</find>
+      <find>Near by que</find>
+      <find>ap_head</find>
+      <find>avatar_img</find>
+      <find>container_content</find>
+      <find>info_container</find>
+      <find>$ask</find>
+      <find>$xmlns=&quot;http://www.w3.org/2000/svg&quot;</find>
+      <find>$ask-&gt;user-&gt;verified</find>
+      <find>$ask-&gt;user</find>
+      <find>xmlns=&quot;http://www.w3.org/2000/svg&quot;</find>
+      <find>$user_data-&gt;verified</find>
+      <find>first_name</find>
+      <find>cover_avatar</find>
+      <find>ask</find>
+      <find>verified</find>
+      <find>cover</find>
+      <find>$data['USER_DATA']</find>
     </findStrings>
     <dirStrings>
       <dir>C:\xampp\htdocs\theapollo.app\themes</dir>
+      <dir>C:\xampp\htdocs\crumbb\assets</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -199,12 +233,9 @@
         <option value="$PROJECT_DIR$/themes/default/layout/header/loggedin.html" />
         <option value="$PROJECT_DIR$/endpoint/v1/stripe-payment.php" />
         <option value="$PROJECT_DIR$/themes/default/layout/timeline/partials/publisher_box.html" />
-        <option value="$PROJECT_DIR$/themes/default/layout/timeline/partials/cover_avatar.html" />
         <option value="$PROJECT_DIR$/themes/default/layout/timeline/partials/post_area.html" />
         <option value="$PROJECT_DIR$/themes/default/layout/trending/content.html" />
         <option value="$PROJECT_DIR$/themes/default/layout/nearby-questions/content.html" />
-        <option value="$PROJECT_DIR$/config.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/sources/register/content.php" />
         <option value="$PROJECT_DIR$/ajax/login.php" />
         <option value="$PROJECT_DIR$/themes/default/layout/timeline/content.html" />
@@ -217,6 +248,11 @@
         <option value="$PROJECT_DIR$/sources/site-pages/content.php" />
         <option value="$PROJECT_DIR$/themes/default/layout/steps/content.html" />
         <option value="$PROJECT_DIR$/ajax/register.php" />
+        <option value="$PROJECT_DIR$/sources/timeline/content.php" />
+        <option value="$PROJECT_DIR$/config.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/assets/includes/functions_general.php" />
+        <option value="$PROJECT_DIR$/themes/default/layout/timeline/partials/cover_avatar.html" />
       </list>
     </option>
   </component>
@@ -233,7 +269,7 @@
       <path value="$PROJECT_DIR$/admin-panel/plugins/morrisjs/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -256,106 +292,18 @@
             <path>
               <item name="crumbb" type="b2602c69:ProjectViewProjectNode" />
               <item name="crumbb" type="462c0819:PsiDirectoryNode" />
-              <item name="admin-panel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crumbb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crumbb" type="462c0819:PsiDirectoryNode" />
               <item name="ajax" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="crumbb" type="b2602c69:ProjectViewProjectNode" />
               <item name="crumbb" type="462c0819:PsiDirectoryNode" />
-              <item name="endpoint" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="crumbb" type="b2602c69:ProjectViewProjectNode" />
               <item name="crumbb" type="462c0819:PsiDirectoryNode" />
-              <item name="endpoint" type="462c0819:PsiDirectoryNode" />
-              <item name="v1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crumbb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crumbb" type="462c0819:PsiDirectoryNode" />
-              <item name="sources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crumbb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crumbb" type="462c0819:PsiDirectoryNode" />
-              <item name="sources" type="462c0819:PsiDirectoryNode" />
-              <item name="register" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crumbb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crumbb" type="462c0819:PsiDirectoryNode" />
-              <item name="sources" type="462c0819:PsiDirectoryNode" />
-              <item name="reset-password" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crumbb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crumbb" type="462c0819:PsiDirectoryNode" />
-              <item name="sources" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crumbb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crumbb" type="462c0819:PsiDirectoryNode" />
-              <item name="sources" type="462c0819:PsiDirectoryNode" />
-              <item name="session_login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crumbb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crumbb" type="462c0819:PsiDirectoryNode" />
-              <item name="sources" type="462c0819:PsiDirectoryNode" />
-              <item name="site-pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crumbb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crumbb" type="462c0819:PsiDirectoryNode" />
-              <item name="sources" type="462c0819:PsiDirectoryNode" />
-              <item name="steps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crumbb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crumbb" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crumbb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crumbb" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crumbb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crumbb" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crumbb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crumbb" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-              <item name="steps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crumbb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crumbb" type="462c0819:PsiDirectoryNode" />
-              <item name="Updates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crumbb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crumbb" type="462c0819:PsiDirectoryNode" />
-              <item name="Updates" type="462c0819:PsiDirectoryNode" />
-              <item name="v1.1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crumbb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crumbb" type="462c0819:PsiDirectoryNode" />
-              <item name="upload" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="includes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -400,12 +348,14 @@
       <workItem from="1598787378066" duration="44000" />
       <workItem from="1598788811797" duration="6034000" />
       <workItem from="1598796313252" duration="15038000" />
-      <workItem from="1598832528346" duration="4333000" />
+      <workItem from="1598832528346" duration="11794000" />
+      <workItem from="1598868520929" duration="1432000" />
+      <workItem from="1598875601210" duration="4692000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49209000" />
+    <option name="totallyTimeSpent" value="62794000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -439,163 +389,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/endpoint/v1/ads.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/endpoint/v1/auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2212">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/includes/app_start.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6860">
-          <caret line="245" column="53" selection-start-line="245" selection-start-column="49" selection-end-line="245" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/endpoint/v1/stripe-payment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="18" column="35" selection-start-line="17" selection-start-column="24" selection-end-line="18" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nginx.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/endpoint/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3836">
-          <caret line="137" column="11" selection-start-line="137" selection-start-column="11" selection-end-line="137" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/endpoint/v1/options.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/layout/timeline/partials/publisher_box.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/layout/timeline/partials/sidebar_footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="27" column="129" selection-start-line="27" selection-start-column="129" selection-end-line="27" selection-end-column="129" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/layout/header/loggedin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4032">
-          <caret line="144" column="24" selection-start-line="144" selection-start-column="24" selection-end-line="144" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/layout/trending/content.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/layout/timeline/partials/post_area.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20328">
-          <caret line="726" column="10" selection-start-line="726" selection-end-line="727" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/init.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/langs/french.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin-panel/LICENSE.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ask.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15960">
-          <caret line="699" column="36" lean-forward="true" selection-start-line="699" selection-start-column="36" selection-end-line="699" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin-panel/autoload.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin-panel/light-logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="164" column="35" selection-start-line="164" selection-start-column="31" selection-end-line="164" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sources/logout/content.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sources/reset-password/content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/messages.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sources/home/content.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-647">
           <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/layout/timeline/partials/cover_avatar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1121">
-          <caret line="161" column="29" lean-forward="true" selection-start-line="161" selection-start-column="29" selection-end-line="161" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -624,17 +421,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
           <caret line="327" column="26" lean-forward="true" selection-start-line="327" selection-start-column="26" selection-end-line="327" selection-end-column="26" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#video#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sources/login/content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="48" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -649,13 +435,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="746">
           <caret line="42" column="6" lean-forward="true" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/layout/auth/register/content.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="86" column="99" selection-start-line="86" selection-start-column="99" selection-end-line="86" selection-end-column="99" />
         </state>
       </provider>
     </entry>
@@ -676,34 +455,10 @@
         <state relative-caret-position="-1125" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/endpoint/v1/users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-50">
-          <caret line="43" column="18" lean-forward="true" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="257" column="24" selection-start-line="257" selection-start-column="17" selection-end-line="257" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/includes/functions_one.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
           <caret line="1174" column="33" lean-forward="true" selection-start-line="1174" selection-start-column="33" selection-end-line="1174" selection-end-column="33" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -723,20 +478,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="613">
           <caret line="1680" column="31" lean-forward="true" selection-start-line="1680" selection-start-column="31" selection-end-line="1680" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/endpoint/v1/user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="252" column="51" lean-forward="true" selection-start-line="252" selection-start-column="51" selection-end-line="252" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sources/register/content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -761,27 +502,221 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/default/layout/steps/content.html">
+    <entry file="file://$PROJECT_DIR$/sources/register/content.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="163" column="35" lean-forward="true" selection-start-line="163" selection-start-column="35" selection-end-line="163" selection-end-column="35" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="557">
+          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/default/layout/auth/register/content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="78" column="32" lean-forward="true" selection-start-line="78" selection-end-line="79" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sources/session_login/content.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
+        <state relative-caret-position="825">
           <caret line="33" column="37" lean-forward="true" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ajax/register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3075">
-          <caret line="123" column="26" lean-forward="true" selection-start-line="123" selection-start-column="26" selection-end-line="123" selection-end-column="26" />
+        <state relative-caret-position="-568">
+          <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/default/layout/timeline/partials/answer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/includes/app_start.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/default/layout/steps/content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="613">
+          <caret line="122" column="55" lean-forward="true" selection-start-line="122" selection-start-column="55" selection-end-line="122" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/endpoint/v1/ads.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/endpoint/v1/auth.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/endpoint/v1/follow.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/endpoint/v1/notifications.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/endpoint/v1/options.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/default/layout/home/content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/endpoint/v1/users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="869">
+          <caret line="43" column="18" lean-forward="true" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/import/cloud/vendor/monolog/monolog/src/Monolog/Handler/ProcessHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/endpoint/v1/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/login/content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="90" selection-start-line="5" selection-start-column="90" selection-end-line="5" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/import/cloud/vendor/monolog/monolog/src/Monolog/Handler/ElasticaHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="23" column="2" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/404/content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cron.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_loading.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="42" column="10" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/import/social-login/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/includes/tables.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/stripe-wallet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/includes/functions_general.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="51" column="30" lean-forward="true" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/endpoint/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="869">
+          <caret line="139" column="57" selection-start-line="139" selection-start-column="57" selection-end-line="139" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="49" lean-forward="true" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/timeline/content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="135" column="33" selection-start-line="135" selection-start-column="23" selection-end-line="135" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1950">
+          <caret line="12" column="27" selection-end-line="259" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/default/layout/timeline/partials/cover_avatar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="72" column="72" lean-forward="true" selection-start-line="72" selection-start-column="72" selection-end-line="72" selection-end-column="72" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

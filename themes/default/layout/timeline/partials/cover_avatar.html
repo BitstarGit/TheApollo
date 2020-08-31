@@ -37,8 +37,9 @@
                     <?php }else{ ?>
                     {{USER first_name}} {{USER last_name}}
                     <?php }?>
-
-                    <?php if($ask->user->verified == 1) { ?>
+                    <!--author : KSUN
+                    Fixed user verification mark-->
+                    <?php if($data['USER_DATA']->verified == 1) { ?>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                          class="verified-color feather feather-check-circle" title="Verified Page"
                          data-toggle="tooltip">
@@ -46,9 +47,7 @@
                     </svg>
                     <?php } ?>
 
-
                 </a></h4>
-
 
                 <!-- Stats  -->
                 <div class="stats_me">
