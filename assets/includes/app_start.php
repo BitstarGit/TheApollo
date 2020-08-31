@@ -246,17 +246,17 @@ $ask->displaymode = (!empty($_COOKIE['mode'])) ? $_COOKIE['mode'] : null;
 if ($ask->config->night_mode == 'night' && empty($ask->mode)) {
     $ask->displaymode = 'night';
 }
-if (empty($_COOKIE['mode']) || !in_array($_COOKIE['mode'], array('night','day')) && empty($ask->mode)) {
-    $ask->displaymode = ($ask->config->night_mode == 'night') ? 'night' : 'day';
+if (empty($_COOKIE['mode']) || !in_array($_COOKIE['mode'], array('night','night')) && empty($ask->mode)) {
+    $ask->displaymode = ($ask->config->night_mode == 'night') ? 'night' : 'night';
     setcookie("mode", $ask->displaymode, time() + (10 * 365 * 24 * 60 * 60), "/");
 }
 
-if (!empty($_POST['mode']) && in_array($_POST['mode'], array('night','day'))) {
+if (!empty($_POST['mode']) && in_array($_POST['mode'], array('night','night'))) {
     setcookie("mode", $_POST['mode'], time() + (10 * 365 * 24 * 60 * 60), "/");
     $ask->displaymode = $_POST['mode'];
 }
 
-if (!empty($_GET['mode']) && in_array($_GET['mode'], array('night','day'))) {
+if (!empty($_GET['mode']) && in_array($_GET['mode'], array('night','night'))) {
     setcookie("mode", $_GET['mode'], time() + (10 * 365 * 24 * 60 * 60), "/");
     $ask->displaymode = $_GET['mode'];
 }
